@@ -5,7 +5,7 @@ export const points = [
     lat: 42.572847,
     lng: 12.735941,
     text: "Sei arrivato al primo punto di interesse. Da qui parte la storia.",
-    radius: 20, // metri
+    radius: 30, // metri
     path: "/",
     nextPath: "/punto-2",
   },
@@ -15,7 +15,7 @@ export const points = [
     lat: 42.572581,
     lng: 12.735299,
     text: "Secondo punto raggiunto. La storia continua.",
-    radius: 20,
+    radius: 30,
     path: "/punto-2",
     nextPath: "/punto-3",
   },
@@ -25,7 +25,7 @@ export const points = [
     lat: 42.571922,
     lng: 12.734706,
     text: "Ultimo punto raggiunto. Hai completato il test.",
-    radius: 20,
+    radius: 30,
     path: "/punto-3",
     nextPath: null,
   },
